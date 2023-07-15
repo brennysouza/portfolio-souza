@@ -1,0 +1,13 @@
+/* Reset default margin and padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/* This code represents the white header at the top of the site nav bar and its styling.
+Allows all elements to be arial font first, and also aligned on center for a clean and polished look. */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
