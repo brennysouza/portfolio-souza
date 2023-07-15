@@ -32,5 +32,28 @@ Allows all elements to be arial font first, and also aligned on center for a cle
     text-decoration: none;
 }
 
+/* This code represents the hero section with a background image */
+.hero {
+    background-image: url("images/hero-clouds2.jpg");
+    display: flex;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 390px) and (max-width: 490px) {
+    .hero {
+        background-image: url("images/hero-clouds2.jpg");
+        background-size: cover;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+}
+
 
 
