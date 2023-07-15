@@ -73,6 +73,28 @@ Allows all elements to be arial font first, and also aligned on center for a cle
     /* flex-wrap: wrap; */
 }
 
+.content {
+    display: flex;
+    padding: 90px;
+}
+
+.about, .work, .contact {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.about-content, .work-content, .contact-content {
+    margin-top: 60px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+    margin-bottom: 50px;
+}
+
+
 /* Media query for small screens such as mobile */
 @media (min-width: 390px) and (max-width: 490px) {
     .hero {
