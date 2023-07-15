@@ -10,4 +10,27 @@ Allows all elements to be arial font first, and also aligned on center for a cle
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
 }
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-bar li {
+    margin: 10px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+}
+
+
+
