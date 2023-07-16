@@ -107,16 +107,25 @@ Allows all elements to be arial font first, and also aligned on center for a cle
 .work-content, .container-a, .container-b, .container-c {
     display: flex;
     flex-wrap: wrap;
+    margin: 30px;
 }
 
-.work-content img {
-    height: 300px;
-    width: 300px;
+.work-content, h3, h4 {
+    margin-left: 10px;
 }
 
-.container-a, .container-b, .container-c {
-
+.img-prj1 {
+    display: flex;
+    height: 550px;
+    width: 900px;
 }
+
+.img-prj2, .img-prj3, .img-prj4, .img-prj5  {
+    height: 350px;
+    width: 440px;
+    margin: 10px;
+}
+
 
 .footer {
     display: flex;
@@ -151,8 +160,7 @@ Allows all elements to be arial font first, and also aligned on center for a cle
 
 }
 
-@media (min-width: 1150px) and (max-width: 2000px) {
-
+@media (min-width: 1150px) {
 
 }
 
