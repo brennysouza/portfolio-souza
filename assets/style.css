@@ -35,10 +35,12 @@ Allows all elements to be arial font first, and also aligned on center for a cle
     margin: 10px;
 }
 
+/* This is the navbar at the top of the site */
 .nav-bar {
     display: flex;
 }
 
+/* The folowing nav-bar code below pertains to the nav bar links found on the right side of the header */
 .nav-bar ul {
     display: flex;
     list-style-type: none;
@@ -73,6 +75,7 @@ link before clicking. This color best matches the color scheme of the hero image
     margin: 0 auto;
 }
 
+/* These containers are for the elements found in the hero section. Allows them to be placed where they are and flexible to move with chaning screen size and will maintain in place. */
 .container1 {
     display: flex;
     flex-direction: row;
@@ -94,6 +97,7 @@ link before clicking. This color best matches the color scheme of the hero image
     margin-right: 20px;
 }
 
+/* This is a headshot image of me found in the hero section for employers to see what I look like. */
 .headshot {
     border: 3px solid black;
     height: 200px;
@@ -107,11 +111,13 @@ link before clicking. This color best matches the color scheme of the hero image
     /* flex-wrap: wrap; */
 }
 
+/* This content is the main section of content found below the header with important info for employers to see. */
 .content {
     display: flex;
     padding: 90px;
 }
 
+/* The following about code below pertains to the about section styling positioning, color, etc. */
 .about, .work, .contact {
     display: flex;
     margin-bottom: 100px;
@@ -126,6 +132,7 @@ link before clicking. This color best matches the color scheme of the hero image
     margin-top: 60px;
 }
 
+/* The following work code below pertains to the projects for my portfolio of mock work. */
 .work-content {
     display: flex;
     justify-content: center;
@@ -159,6 +166,7 @@ link before clicking. This color best matches the color scheme of the hero image
     color: cadetblue;
 }
 
+/* This code pertains to the images found in the work section of the site. This is for positioning and size. */
 .img-prj1 {
     display: flex;
     height: 550px;
@@ -172,6 +180,8 @@ link before clicking. This color best matches the color scheme of the hero image
     display: flex;
 }
 
+/* This code allows a hover for the images and makes it interactive, allowing users to know that its functional. The hover color
+will be indian red to match color scheme. */
 .img-prj1:hover,
 .img-prj2:hover,
 .img-prj3:hover,
@@ -181,7 +191,7 @@ link before clicking. This color best matches the color scheme of the hero image
   color: indianred;
 }
 
-
+/* The contact code below pertains to the contact section found at the bottom of the site. */
 .contact li {
     list-style-type: none;
     padding-top: 20px;
@@ -192,11 +202,12 @@ link before clicking. This color best matches the color scheme of the hero image
     font-weight: 600;
 }
 
+/* This code allows each link to be blue when users highlight over. */
 .contact a:hover {
     color: cadetblue;
 }
 
-
+/* Last section of site found at the bottom. Pertains to positioning. */
 .footer {
     display: flex;
     justify-content: center;
