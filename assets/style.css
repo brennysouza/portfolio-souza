@@ -172,7 +172,7 @@ link before clicking. This color best matches the color scheme of the hero image
 
 /* This code pertains to the images found in the work section of the site. This is for positioning and size. */
 .img-prj1 {
-    display: flex;
+    flex-wrap: wrap;
     height: 550px;
     width: 900px;
 }
@@ -219,3 +219,41 @@ will be indian red to match color scheme. */
     margin-bottom: 50px;
 }
 
+@media screen and (max-width: 1200px) {
+    .img-prj1 {
+        width: 600px;
+        height: 400px;
+    }
+
+    .img-prj2, .img-prj3, .img-prj4, .img-prj5  {
+        height: 200px;
+        width: 325px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .img-prj1 {
+        width: 425px;
+        height: 300px;
+    }
+
+    .img-prj2, .img-prj3, .img-prj4, .img-prj5  {
+        height: 175px;
+        width: 275px;
+    }
+
+}
+
+@media screen and (max-width: 870px) {
+    .img-prj1 {
+        width: 425px;
+        height: 300px;
+    }
+
+    .img-prj2, .img-prj3, .img-prj4, .img-prj5  {
+        height: 150px;
+        width: 200px;
+    }
+
+}
