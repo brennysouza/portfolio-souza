@@ -132,6 +132,10 @@ link before clicking. This color best matches the color scheme of the hero image
     margin-top: 60px;
 }
 
+.work {
+    display: flex;
+}
+
 /* The following work code below pertains to the projects for my portfolio of mock work. */
 .work-content {
     display: flex;
@@ -214,3 +218,4 @@ will be indian red to match color scheme. */
     /* padding: 10px; */
     margin-bottom: 50px;
 }
+
