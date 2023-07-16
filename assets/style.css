@@ -5,6 +5,10 @@
     padding: 0;
   }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* This code represents the white header at the top of the site nav bar and its styling.
 Allows all elements to be arial font first, and also aligned on center for a clean and polished look. */
 .header {
@@ -42,13 +46,19 @@ Allows all elements to be arial font first, and also aligned on center for a cle
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .container1 {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    /* justify-content: center; */
     align-items: center;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-head {
@@ -87,6 +97,27 @@ Allows all elements to be arial font first, and also aligned on center for a cle
     margin-top: 60px;
 }
 
+.work-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.work-content, .container-a, .container-b, .container-c {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-content img {
+    height: 300px;
+    width: 300px;
+}
+
+.container-a, .container-b, .container-c {
+
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -116,6 +147,11 @@ Allows all elements to be arial font first, and also aligned on center for a cle
     .hero-title {
         margin-top: 60px;
     }
+
+
+}
+
+@media (min-width: 1150px) and (max-width: 2000px) {
 
 
 }
