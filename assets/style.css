@@ -5,8 +5,24 @@
     padding: 0;
   }
 
+  /* This code ensures that all fony style on this site is arial. If browswer does not recognize arial, then either helvetica, or sans serif will be used. */
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This code is for all header tags below h1 and sets their font style as well as color.
+In this case, the primary will be arial font with black color, unless the browser DOES NOT read arial; however,
+the color black is universal.  */
+h2, h3, h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+/* This code set the font style for all links and paragraph tags to be black and font type arial.
+The primary will be arial font with black color, unless the browser DOES NOT read arial; however,
+the color black is universal.  */
+p, a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
 /* This code represents the white header at the top of the site nav bar and its styling.
@@ -32,8 +48,16 @@ Allows all elements to be arial font first, and also aligned on center for a cle
     margin: 10px;
 }
 
+/* This code allows the nav bar links to remain black once clicked and accessed */
 .nav-bar a {
     text-decoration: none;
+    color: black;
+}
+
+/* This code allows the nav bar links to glow cadet blue as the user hovers over each
+link before clicking. This color best matches the color scheme of the hero image. */
+.nav-bar a:hover {
+    color: cadetblue;
 }
 
 /* This code represents the hero section with a background image */
@@ -93,6 +117,11 @@ Allows all elements to be arial font first, and also aligned on center for a cle
     margin-bottom: 100px;
 }
 
+.about-subtitle {
+    font-weight: 800;
+    color: cadetblue;
+}
+
 .about-content, .work-content, .contact-content {
     margin-top: 60px;
 }
@@ -106,12 +135,28 @@ Allows all elements to be arial font first, and also aligned on center for a cle
 
 .work-content, .container-a, .container-b, .container-c {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 30px;
+}
+
+.container-a, img {
+    margin-top: 10px;
+}
+
+.container-a {
+    margin-top: 50px;
+}
+
+.project-1, h3, h4 {
+    margin-right: 10px;
 }
 
 .work-content, h3, h4 {
     margin-left: 10px;
+}
+
+.work-content h4 {
+    color: cadetblue;
 }
 
 .img-prj1 {
@@ -124,6 +169,31 @@ Allows all elements to be arial font first, and also aligned on center for a cle
     height: 350px;
     width: 440px;
     margin: 10px;
+    display: flex;
+}
+
+.img-prj1:hover,
+.img-prj2:hover,
+.img-prj3:hover,
+.img-prj4:hover,
+.img-prj5:hover {
+  opacity: 50%;
+  color: indianred;
+}
+
+
+.contact li {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact a:hover {
+    color: cadetblue;
 }
 
 
@@ -134,35 +204,14 @@ Allows all elements to be arial font first, and also aligned on center for a cle
     margin-bottom: 50px;
 }
 
-
-/* Media query for small screens such as mobile */
-@media (min-width: 390px) and (max-width: 490px) {
-    .hero {
-        background-image: url("images/hero-clouds2.jpg");
-        background-size: cover;
-    }
-
-    .header h1 {
-        font-size: 20px;
-    }
-
-    .container1 {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .hero-title {
-        margin-top: 60px;
-    }
+.footer 
 
 
-}
 
-@media (min-width: 1150px) {
 
-}
+
+
+
 
 
 
